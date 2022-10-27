@@ -1,0 +1,109 @@
+.loginContainer {
+  width: 400px;
+  height: 510px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginHeader {
+  font-weight: 800;
+  margin-top: 10px;
+  font-size: large;
+}
+
+.content {
+  margin-top: 40px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.emailHeader {
+  font-weight: 500;
+}
+
+.input {
+  height: 50px;
+  border-radius: 6px;
+  border-color: rgb(209, 207, 203);
+  margin-top: 10px;
+  outline: none;
+  padding: 3px 20px;
+}
+
+.passwordHeader {
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.loginBtn {
+  border: none;
+  margin-top: 40px;
+  background-color: #f63d3d;
+  color: white;
+  cursor: pointer;
+  height: 43px;
+  border-radius: 6px;
+}
+
+.keepLogin {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.checkBoxIcon {
+  color: rgb(209, 209, 190);
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.keepLoginText {
+  font-weight: 500;
+  font-size: small;
+  padding-top: 9px;
+  padding-left: 5px;
+}
+
+.forgotPassword {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: smaller;
+  color: #f63d3d;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.alert {
+  width: 337px;
+  height: 36px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f63d3d;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -23px;
+  margin-right: -15px;
+}
